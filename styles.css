@@ -1,0 +1,68 @@
+/* .container
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+} */
+.dice
+{
+    display: inline-block;
+    text-align: center;
+    margin: 3% 5%;
+}
+
+
+body
+{
+   
+    background-color: #EAE2B6;
+    text-align: center;
+}
+
+h1
+{
+    margin: 5% ;
+    font-family: 'Courgette', cursive;
+    font-size: 8rem;
+    color: #E28F83;
+}
+p
+{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 2rem;
+    color: #766161;
+}
+@media(max-width:900px)
+{
+    h1
+    {
+        font-size: 6rem;
+    }
+}
+
+@media(max-width:500px)
+{
+    h1
+    {
+        font-size: 4rem;
+        margin: 15%;
+    }
+}
+@media(max-width:300px)
+{
+    h1
+    {
+        font-size: 2rem;
+        margin: 15%;
+    }
+    p
+    {
+        font-size: 1rem;
+    }
+}
+
+
+img
+{
+    width: 120%;
+}
